@@ -27,10 +27,10 @@ Gợi ý chia vai:
 
 | Người | Vai | Commit | Test đã thêm hoặc sửa |
 | --- | --- | --- | --- |
-| Bùi Xuân Thành | workflow + integration | f55bee2 | tests/test_workflow.py |
-| Phạm Tuấn Anh | single | 0ca10b7 | tests/test_single_student.py |
-| Nguyễn Mạnh Quyền | orchestrator + handoff | a189b7c | tests/test_orchestrator.py |
-| Trịnh Thanh Tùng | ledger + evaluation | 439db4e | tests/test_swarm_reference.py |
+| Bùi Xuân Thành | workflow + integration | f55bee2, 567c339 | tests/test_workflow.py |
+| Phạm Tuấn Anh | single | 5b65ad8, 0ca10b7, c7eb171, 4f4d88e | tests/test_single_student.py |
+| Nguyễn Mạnh Quyền | orchestrator + handoff | a189b7c, 421865c, 6cf612f | tests/test_orchestrator.py |
+| Trịnh Thanh Tùng | ledger + evaluation | 439db4e, 5da6370, 28b10e1, e5e82e7 | tests/test_swarm_reference.py |
 
 ## Cá nhân
 
@@ -58,7 +58,7 @@ Sao chép mục dưới đây cho từng thành viên.
 
 ### Bằng chứng
 
-- Commit: `f55bee2`
+- Commit: `f55bee2`, `567c339`
 - Test: `tests/test_workflow.py` (1 passed)
 - Run ID dẫn chứng: `R-workflow-C-014-s11`
 
@@ -78,7 +78,7 @@ Sao chép mục dưới đây cho từng thành viên.
 
 ### Bằng chứng
 
-- Commit: `5b65ad8`, `0ca10b7`
+- Commit: `5b65ad8`, `0ca10b7`, `c7eb171`, `4f4d88e`
 - Test: `tests/test_single_student.py` (8 passed)
 - Run ID dẫn chứng: `R-single-C-001-s11`
 
@@ -98,7 +98,7 @@ Sao chép mục dưới đây cho từng thành viên.
 
 ### Bằng chứng
 
-- Commit: `a189b7c`
+- Commit: `a189b7c`, `421865c`, `6cf612f`
 - Test: `tests/test_orchestrator.py` (18 passed)
 - Run ID dẫn chứng: `R-orchestrator-C-001-s11`
 
@@ -117,7 +117,7 @@ Sao chép mục dưới đây cho từng thành viên.
 
 ### Bằng chứng
 
-- Commit: `439db4e`
+- Commit: `439db4e`, `5da6370`, `28b10e1`, `e5e82e7`
 - Test: `tests/test_swarm_reference.py::test_swarm_seed_divisible_by_5_overrides_delay_with_ticket` (14 passed)
 - Benchmark: `reports/benchmark_swarm.json`
 - Crash: `reports/crash.json` (20/20 safe)
