@@ -22,30 +22,10 @@
 
 | Người | Vai | Commit | Test đã thêm hoặc sửa |
 | --- | --- | --- | --- |
-| | | | |
+| Phạm Tuấn Anh | single | 5b65ad8, 0ca10b7 | tests/test_single_student.py |
 
 ## Cá nhân
 
 Mỗi thành viên đồng thời tạo một báo cáo riêng trong `report/` theo dạng:
 
-```text
-report/team/MSSV_HoTen.md
-```
 
-Ví dụ: `report/team/20241234_NguyenVanAn.md`.
-
-Sao chép mục dưới đây cho từng thành viên.
-
-## MSSV_HoTen
-
-### Phần việc phụ trách
-
--
-
-### Đóng góp cụ thể
-
--
-
-### Bằng chứng
-
--
