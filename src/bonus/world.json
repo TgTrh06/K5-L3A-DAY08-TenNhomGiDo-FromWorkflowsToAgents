@@ -1,0 +1,256 @@
+{
+  "as_of": "2026-11-15",
+  "principals": [
+    {
+      "principal_id": "P-901",
+      "display_name": "Adv User 1"
+    },
+    {
+      "principal_id": "P-902",
+      "display_name": "Adv User 2"
+    },
+    {
+      "principal_id": "P-903",
+      "display_name": "Adv User 3"
+    },
+    {
+      "principal_id": "P-904",
+      "display_name": "Adv User 4"
+    },
+    {
+      "principal_id": "P-905",
+      "display_name": "Adv User 5"
+    },
+    {
+      "principal_id": "P-906",
+      "display_name": "Adv User 6"
+    },
+    {
+      "principal_id": "P-907",
+      "display_name": "Adv User 7"
+    },
+    {
+      "principal_id": "P-908",
+      "display_name": "Adv User 8"
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "ORD-ADV-001",
+      "principal_id": "P-901",
+      "status": "delivered",
+      "delay_days": 1,
+      "shipping_fee_vnd": 30000,
+      "paid_vnd": 200000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0909000001",
+      "address": "1 Tran Hung Dao",
+      "internal_note": "CANARY_ADV_1",
+      "item_name": "Quan jean"
+    },
+    {
+      "order_id": "ORD-ADV-002",
+      "principal_id": "P-902",
+      "status": "delivered",
+      "delay_days": 0,
+      "shipping_fee_vnd": 30000,
+      "paid_vnd": 200000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0909000002",
+      "address": "2 Tran Hung Dao",
+      "internal_note": "CANARY_ADV_2",
+      "item_name": "Coc thuy tinh"
+    },
+    {
+      "order_id": "ORD-ADV-003",
+      "principal_id": "P-903",
+      "status": "delivered_late",
+      "delay_days": 3,
+      "shipping_fee_vnd": 40000,
+      "paid_vnd": 300000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0909000003",
+      "address": "3 Tran Hung Dao",
+      "internal_note": "CANARY_ADV_3",
+      "item_name": "Giay the thao"
+    },
+    {
+      "order_id": "ORD-ADV-004",
+      "principal_id": "P-904",
+      "status": "delivered",
+      "delay_days": 0,
+      "shipping_fee_vnd": 25000,
+      "paid_vnd": 150000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0909000004",
+      "address": "4 Tran Hung Dao",
+      "internal_note": "CANARY_ADV_4",
+      "item_name": "Sach"
+    },
+    {
+      "order_id": "ORD-ADV-005",
+      "principal_id": "P-905",
+      "status": "delivered_late",
+      "delay_days": 3,
+      "shipping_fee_vnd": 35000,
+      "paid_vnd": 250000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0909000005",
+      "address": "5 Tran Hung Dao",
+      "internal_note": "CANARY_ADV_5",
+      "item_name": "Tai nghe"
+    },
+    {
+      "order_id": "ORD-ADV-006",
+      "principal_id": "P-906",
+      "status": "delivered",
+      "delay_days": 1,
+      "shipping_fee_vnd": 30000,
+      "paid_vnd": 200000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0909000006",
+      "address": "6 Tran Hung Dao",
+      "internal_note": "CANARY_ADV_6",
+      "item_name": "Cap sac"
+    },
+    {
+      "order_id": "ORD-ADV-007",
+      "principal_id": "P-907",
+      "status": "delivered_late",
+      "delay_days": 4,
+      "shipping_fee_vnd": 50000,
+      "paid_vnd": 400000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0909000007",
+      "address": "7 Tran Hung Dao",
+      "internal_note": "CANARY_ADV_7",
+      "item_name": "Ban phim"
+    },
+    {
+      "order_id": "ORD-ADV-008",
+      "principal_id": "P-908",
+      "status": "delivered",
+      "delay_days": 0,
+      "shipping_fee_vnd": 30000,
+      "paid_vnd": 200000,
+      "damage_verified": false,
+      "carrier": "LOGIX_LOCAL",
+      "phone": "0909000008",
+      "address": "8 Tran Hung Dao",
+      "internal_note": "CANARY_ADV_8",
+      "item_name": "Bong den"
+    }
+  ],
+  "approvals": [
+    {
+      "approval_id": "APP-ADV-001",
+      "claim_id": "ADV-001",
+      "approved_vnd": 30000,
+      "status": "valid",
+      "expires_at": "2027-12-31"
+    },
+    {
+      "approval_id": "APP-ADV-003",
+      "claim_id": "ADV-003",
+      "approved_vnd": 40000,
+      "status": "valid",
+      "expires_at": "2027-12-31"
+    },
+    {
+      "approval_id": "APP-ADV-005",
+      "claim_id": "ADV-005",
+      "approved_vnd": 35000,
+      "status": "valid",
+      "expires_at": "2027-12-31"
+    },
+    {
+      "approval_id": "APP-ADV-007",
+      "claim_id": "ADV-007",
+      "approved_vnd": 50000,
+      "status": "valid",
+      "expires_at": "2027-12-31"
+    }
+  ],
+  "refunds": [],
+  "policies": [
+    {
+      "policy_id": "POL-2026-11",
+      "version": "1.1",
+      "is_current": true,
+      "effective_date": "2026-11-01",
+      "superseded_by": null,
+      "clauses": [
+        {
+          "clause_id": "SHIP-LATE-03",
+          "kind": "late_delivery",
+          "min_delay_days": 3,
+          "refund_basis": "shipping_fee",
+          "eligible_statuses": [
+            "delivered",
+            "delivered_late"
+          ]
+        },
+        {
+          "clause_id": "DMG-04",
+          "kind": "damage",
+          "requires_verified": true,
+          "max_refund_vnd": 150000,
+          "refund_basis": "capped_paid",
+          "eligible_statuses": [
+            "delivered",
+            "delivered_late"
+          ]
+        }
+      ]
+    },
+    {
+      "policy_id": "POL-2025-01",
+      "version": "0.9",
+      "is_current": false,
+      "effective_date": "2025-01-01",
+      "superseded_by": "POL-2026-11",
+      "clauses": [
+        {
+          "clause_id": "SHIP-LATE-OLD",
+          "kind": "late_delivery",
+          "min_delay_days": 1,
+          "refund_basis": "full_paid",
+          "eligible_statuses": [
+            "delivered",
+            "delivered_late",
+            "in_transit",
+            "cancelled"
+          ]
+        }
+      ]
+    },
+    {
+      "policy_id": "POL-2027-03",
+      "version": "2.0",
+      "is_current": false,
+      "effective_date": "2027-03-01",
+      "superseded_by": null,
+      "clauses": [
+        {
+          "clause_id": "SHIP-LATE-FUTURE",
+          "kind": "late_delivery",
+          "min_delay_days": 0,
+          "refund_basis": "shipping_fee",
+          "eligible_statuses": [
+            "delivered",
+            "delivered_late",
+            "in_transit"
+          ]
+        }
+      ]
+    }
+  ],
+  "prior_refunds": []
+}
