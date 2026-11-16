@@ -6,7 +6,7 @@ Tối đa 5 trang ngoài phụ lục. Số liệu lấy từ file trong `src/rep
 
 - Tên nhóm: TenNhomGiDo
 - Thành viên: xem `TEAM.md`
-- Commit chốt (trùng `report/team/decision_adr.md`): e356009
+- Commit chốt (trùng `report/team/decision_adr.md`): e5e82e7
 
 ## 2. Mục tiêu và cách tiếp cận
 
