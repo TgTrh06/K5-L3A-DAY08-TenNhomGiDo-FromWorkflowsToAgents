@@ -4,7 +4,7 @@
 
 - Họ tên: Phạm Tuấn Anh
 - MSSV: 2A202603503
-- Email: pta070707123@gmail.com
+- Email: 26ai.anhpt9@vinuni.edu.vn
 - GitHub: phamtuananhhatay
 
 ## 2. Phần việc phụ trách

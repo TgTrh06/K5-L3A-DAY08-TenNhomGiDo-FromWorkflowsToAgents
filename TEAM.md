@@ -12,7 +12,7 @@
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò |
 | --: | ------ | ---- | ----- | ------ | ------- |
 | 1 | Bùi Xuân Thành | 2A202603521  |        | KDAGRAGAS | workflow + integration |
-| 2 | Phạm Tuấn Anh | 2A202603503 |     | phamtuananhhatay | single |
+| 2 | Phạm Tuấn Anh | 2A202603503 | 26ai.anhpt9@vinuni.edu.vn | phamtuananhhatay | single |
 | 3 | Nguyễn Mạnh Quyền | 2A202603518 |     | manhquyenkma | orchestrator + handoff |
 | 4 | Trịnh Thanh Tùng | 2A202603456 | 26ai.tungtt2@vinuni.edu.vn | TgTrh06 | ledger + evaluation |
 

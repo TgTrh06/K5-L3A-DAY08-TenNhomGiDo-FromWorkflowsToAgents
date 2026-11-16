@@ -4,7 +4,7 @@
 
 - Họ tên: Nguyễn Mạnh Quyền
 - MSSV: 2A202603518
-- Email: quyenbiak19@gmail.com
+- Email: 26ai.quyennm3@vinuni.edu.vn
 - GitHub: https://github.com/manhquyenkma
 
 
