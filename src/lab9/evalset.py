@@ -29,6 +29,23 @@ REQUIRED = ("item_id", "claim_id", "failure_modes", "provenance", "split", "eval
 
 FM_CODE = re.compile(r"FM-\d{2}")
 
+# These tags identify what each public-matrix item exercises. Expected outcomes
+# remain in labels_v1.json so a grader never receives its answer inline.
+FAILURE_MODES_BY_CLAIM: dict[str, list[str]] = {
+    "C-001": ["FM-04"], "C-002": ["FM-03"], "C-003": ["FM-04"],
+    "C-004": ["FM-02"], "C-005": ["FM-09"], "C-006": ["FM-06"],
+    "C-007": ["FM-02", "FM-08"], "C-008": ["FM-08"], "C-009": ["FM-02"],
+    "C-010": ["FM-01"], "C-011": ["FM-07"], "C-012": ["FM-07"],
+    "C-013": ["FM-05"], "C-014": ["FM-04", "FM-05", "FM-08"],
+}
+
+TRACE_EVIDENCE_BY_CLAIM: dict[str, str] = {
+    "C-002": "seeded_regression:C-002@11:event-3:model_override",
+    "C-007": "seeded_regression:C-007@11:event-5:reply",
+    "C-008": "seeded_regression:C-008@11:event-5:reply",
+    "C-014": "seeded_regression:C-014@11:event-5:proposal",
+}
+
 
 def load_jsonl(path: Path) -> list[dict[str, Any]]:
     return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
@@ -46,10 +63,9 @@ def build(source: Path = SOURCE) -> tuple[int, int]:
         items.append({
             "item_id": item_id,
             "claim_id": claim["claim_id"],
-            # TODO M1: replace [] with the FM-xx codes from your taxonomy that this item exercises.
-            "failure_modes": [],
+            "failure_modes": FAILURE_MODES_BY_CLAIM[claim["claim_id"]],
             "provenance": {"source": "lab8_public", "matrix_id": claim.get("matrix_id"),
-                           "from_trace": None, "generator": None,
+                           "from_trace": TRACE_EVIDENCE_BY_CLAIM.get(claim["claim_id"]), "generator": None,
                            "label_by": "lab8_matrix", "checked_by": None},
             "split": "regression",
             "eval_set_version": VERSION,
