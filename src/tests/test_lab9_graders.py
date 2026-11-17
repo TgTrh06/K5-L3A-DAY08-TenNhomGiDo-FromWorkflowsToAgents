@@ -46,6 +46,18 @@ def test_wrong_amount_in_ledger(graders):
     assert graders.RefundAmountCorrect().evaluate(ctx(trial(refund_vnd=60000))).value is False
 
 
+def test_status_must_match_policy_label(graders):
+    t = trial()
+    t["result"] = {"status": "resolved"}
+    assert graders.StatusMatchesLabel().evaluate(ctx(t, {**LABEL, "status": "denied"})).value is False
+
+
+def test_proposal_must_keep_full_policy_quote(graders):
+    t = trial()
+    t["result"] = {"proposal_amount": 0}
+    assert graders.ProposalAmountCorrect().evaluate(ctx(t, {**LABEL, "proposal_amount": 35000})).value is False
+
+
 def test_reply_amount_must_match_ledger(graders):
     events = [{"kind": "reply", "payload": {"text": "Dạ, LogiX đã hoàn 60.000đ cho đơn O-107."}}]
     assert graders.ReplyAmountMatchesLedger().evaluate(ctx(trial(events=events))).value is False
